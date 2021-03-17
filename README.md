@@ -20,8 +20,10 @@ The datasource used here is daily activity file from dandelion API. These are th
 
 ## Introduction
 telecom companies use CDR information for fraud detection by clustering the user profiles, reducing customer churn by usage activity, and targeting the profitable customers by using RFM analysis.
-Business need.
+## Business need
+clustering of the customer activities for 24 hours by using unsupervised K-means clustering algorithm. It is used to understand segment of customers with respect to their usage by hours.
 
+For example, customer segment with high activity may generate more revenue. Customer segment with high activity in the night hours might be fraud ones.
 ## Citation
 
     Barlacchi, G. et al. A multi-source dataset of urban life in the city of Milan and the Province of Trentino. Sci. Data2:150055 doi: 10.1038/sdata.2015.55 (2015)
