@@ -34,8 +34,8 @@ The telecom companies use CDR information for fraud detection by clustering the 
 
 By aggregating the aforementioned records it was created this dataset that provides SMSs, calls and Internet traffic activity. It measures the level of interaction of the users with the mobile phone network; for example the higher is the number of SMS sent by the users, the higher is the activity of the sent SMS. Measurements of call and SMS activity have the same scale (therefore are comparable); those referring to Internet traffic do not.
 ## Business need
-clustering of the customer activities for 24 hours by using unsupervised K-means clustering algorithm. It is used to understand segment of customers with respect to their usage by hours.
-
+Clustering of the customer activities for 24 hours by using unsupervised K-means clustering algorithm. It is used to understand segment of customers with respect to their usage by hours. 
+The business need is to identify hours within a day when the customers are most active. 
 For example, customer segment with high activity may generate more revenue. Customer segment with high activity in the night hours might be fraud ones.
 ## Citation
 
@@ -49,8 +49,6 @@ For example, customer segment with high activity may generate more revenue. Cust
 Telecom Italia's data. Recorded in Milano in 2013 november and september. You can download the dataset from [here](https://dandelion.eu/datamine/open-big-data/). It licensed under [ODbL](https://opendatacommons.org/licenses/odbl/).
 
 ### Description
-
-From *dandelion.eu*:
 
 > This dataset provides information about the telecommunication activity over the city.
 >
@@ -80,7 +78,7 @@ From *dandelion.eu*:
 >8. **Internet traffic activity**: The activity in terms of performed internet traffic inside the Square id, during the Time interval and by the nation of the users performing the connection identified by the Country code.
 
 #### File Format
-
+Pick any file 
 From https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EGZHFV 
 
 Each file in the dataset is one 24 hour period. 
