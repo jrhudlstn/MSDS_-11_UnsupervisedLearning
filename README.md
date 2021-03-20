@@ -130,4 +130,5 @@ Figure 7.
 ![image](https://user-images.githubusercontent.com/6859309/111854572-d52c2980-88ed-11eb-96cc-e9d220c8ed3a.png)
 Figure 8. 
 
-
+# Video Recording
+https://youtu.be/ZmWKXgsiUjo
