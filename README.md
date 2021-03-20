@@ -85,10 +85,4 @@ From *dandelion.eu*:
 
 From https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EGZHFV 
 
->Files are in tsv format. If no activity was recorded for a field specified in the schema above then the corresponding value is missing from the file. For example, if for a given combination of the Square id `s`, the Time interval `i` and the Country code `c` no SMS was sent the corresponding record looks as follows:
->`s \t i \t c \t \t SMSout \t Callin \t Callout \t Internettraffic`
->where `\t` corresponds to the tab character, `SMSout` is the value corresponding to the SMS-out activity, `Callin` is the value corresponding to the Call-in activity, `Callout` is the value corresponding to the Call-out activity and `internettraffic` is the value corresponding to the  Internet traffic activity.
->
->Moreover, if for a given combination of the Square id `s`, the Time interval `i` and the Country code `c` no activity is recorded the corresponding record is missing from the dataset. This means that records of the following type
->`s \t i \t c \t \t \t \t \t`
->are not stored in the dataset.
+Each file in the dataset is one 24 hour period. 
