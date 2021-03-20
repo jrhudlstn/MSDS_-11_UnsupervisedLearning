@@ -70,8 +70,6 @@ From *dandelion.eu*:
 
 #### Schema
 
-From *dandelion.eu*:
-
 >1. **Square id**: The id of the square that is part of the city GRID.
 >2. **Time interval**: The beginning of the time interval expressed as the number of millisecond elapsed from the Unix Epoch on January 1st, 1970 at UTC. The end of the time interval can be obtained by adding 600000 milliseconds (10 minutes) to this value.
 >3. **Country code**: The phone country code of a nation. Depending on the measured activity this value assumes different meanings that are explained later.
